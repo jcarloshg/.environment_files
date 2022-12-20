@@ -3,11 +3,9 @@
 # my config
 # ============================================
 
-echo "================================"
-echo "        do it for her..."
-echo "================================"
+echo "do it for her..."
 
-
+alias sudo="sudo "
 alias ll="ls -l"
 alias la="ls -la"
 
@@ -22,6 +20,9 @@ alias codeNIKUne="code $HOME/Documentos/chamba/niku_negocioEmpleado"
 alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
 alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
 
+# ==========
+# git
+# ============
 alias ga="git add ."
 alias gc="git commit"
 alias gp="git push"
