@@ -45,7 +45,8 @@ function ppp {
 
 function NCOLOR { echo "${NC}" }
 
-function gic {
+
+function gcommit {
 
     git add .
     echo "${JUMPLINE} > executed  ${MAGENTA}git add ."
