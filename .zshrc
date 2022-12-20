@@ -5,31 +5,8 @@
 
 echo "do it for her..."
 
-alias sudo="sudo "
-alias ll="ls -l"
-alias la="ls -la"
-
-
-alias cds="cd $HOME/Documentos/school/"
-alias cdc="cd $HOME/Documentos/chamba/"
-alias cda="cd $HOME/Documentos/SANDBOX/"
-
-alias codeNIKUmb="code $HOME/Documentos/chamba/niku_marketingBackend"
-alias codeNIKUne="code $HOME/Documentos/chamba/niku_negocioEmpleado"
-
-alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
-alias cdFLOKYa="cd $HOME/Documentos/school/tesis/Floky"
-alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
-alias cdFLOKYt="cd $HOME/Documentos/school/tesis/FlokyTutor"
-
-# ==========
-# git
-# ============
-# alias ga="git add ."
-# alias gc="git commit"
-alias gp="git push"
-alias gs="git status"
-alias gd="git diff"
+source $HOME/.environment_files/alias.sh
+source $HOME/.environment_files/git/git.sh
 
 
 RED='\033[0;31m'
@@ -45,25 +22,6 @@ function ppp {
 
 function NCOLOR { echo "${NC}" }
 
-
-function gcommit {
-
-    git add .
-    echo "${JUMPLINE} > executed  ${MAGENTA}git add ."
-
-    NCOLOR
-
-    if [ -z "$1" ]; then
-        git commit
-        echo "${JUMPLINE} > executed  ${MAGENTA}git commit"
-    else
-        git commit -m "$1"
-        echo "${JUMPLINE} > executed  ${MAGENTA}git commit -m $1"
-    fi
-
-    NCOLOR
-
-}
 
 
 # ============================================
