@@ -1,6 +1,36 @@
+
+# ============================================
+# my config
+# ============================================
+
 echo "================================"
 echo "        do it for her..."
 echo "================================"
+
+
+alias ll="ls -l"
+alias la="ls -la"
+
+
+alias cds="cd $HOME/Documentos/school/"
+alias cdc="cd $HOME/Documentos/chamba/"
+alias cda="cd $HOME/Documentos/SANDBOX/"
+
+alias codeNIKUmb="code $HOME/Documentos/chamba/niku_marketingBackend"
+alias codeNIKUne="code $HOME/Documentos/chamba/niku_negocioEmpleado"
+
+alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
+alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
+
+alias ga="git add ."
+alias gs="git status"
+alias gd="git diff"
+
+
+# ============================================
+# my from oh-my-zsh
+# ============================================
+
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
