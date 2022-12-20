@@ -23,6 +23,8 @@ alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
 alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
 
 alias ga="git add ."
+alias gc="git commit"
+alias gp="git push"
 alias gs="git status"
 alias gd="git diff"
 
