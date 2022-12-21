@@ -11,4 +11,5 @@ function _exit_code() {
 }
 
 # PROMPT='$(_exit_code)%n @ %d: '
-PROMPT='%{%F{$(_exit_code)}%}%n%{%f%S}% @ %d: '
+# PROMPT='%{%F{$(_exit_code)}%}%n%{%f%S}% @ %d: '
+PROMPT='%n@%d: '
