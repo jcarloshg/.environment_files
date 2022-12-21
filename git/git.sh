@@ -28,4 +28,4 @@ function gcommit {
 
 }
 
-echo "\n LOADED alias.sh"
+echo "\n LOADED git.sh"

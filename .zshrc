@@ -8,21 +8,21 @@ echo "do it for her..."
 source $HOME/.environment_files/alias.sh
 source $HOME/.environment_files/git/git.sh
 
-
-RED='\033[0;31m'
-MAGENTA='\033[0;35m'
-JUMPLINE='\n'
-NC='\033[0m' # No Color
-BOLD=$(tput bold)
-NORM=$(tput sgr0)
-
-function ppp {
-    echo "${JUMPLINE} > executed  ${MAGENTA}git add ."
+_display_message() {
+    dirToMove=$(ls | fzf)
+    cd "$dirToMove"
 }
+zle     -N      _display_message
+bindkey '^h'    _display_message
 
-function NCOLOR { echo "${NC}" }
-
-
+_reverse_search() {
+    # selectCommant=$(fc -rl 1 | awk '{$1="";print substr($0,2)}' | fzf)
+    # echo -n $selectCommant | setopt hist_ignore_all_dups # no duplicate
+    selectCommant=$(fc -rln 1 | fzf)
+    echo -n $selectCommant
+}
+zle     -N      _reverse_search
+bindkey '^j'    _reverse_search
 
 # ============================================
 # my from oh-my-zsh
