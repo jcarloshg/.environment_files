@@ -14,5 +14,3 @@ alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
 alias cdFLOKYa="cd $HOME/Documentos/school/tesis/Floky"
 alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
 alias cdFLOKYt="cd $HOME/Documentos/school/tesis/FlokyTutor"
-
-echo "\n LOADED alias.sh"
