@@ -23,6 +23,7 @@ source <(ng completion script)
 
 echo "do it for her..."
 
+source $HOME/.environment_files/utilities.sh
 source $HOME/.environment_files/alias.sh
 source $HOME/.environment_files/git/git.sh
 source $HOME/.environment_files/PROMPT/prompt.index.sh
