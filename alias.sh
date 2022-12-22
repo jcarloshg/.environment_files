@@ -1,8 +1,7 @@
 alias sudo="sudo "
 
-alias ls="exa -la"
 alias ll="ls -l"
-alias la="ls -la"
+alias la="exa -la"
 
 alias cds="cd $HOME/Documentos/school/"
 alias cdc="cd $HOME/Documentos/chamba/"
