@@ -1,4 +1,4 @@
-function exit_code() {
+function get_exit_code_color() {
     local EXIT="$?"
 
     if [ $EXIT -eq 0 ]; then
@@ -8,4 +8,7 @@ function exit_code() {
     fi
 }
 
-username='%{%F{$(exit_code)}%}%n%{%f%}'
+exit_code_color=$(get_exit_code_color)
+username='%n'
+
+username_prompt='%{%F{${exit_code_color}}%}${username}%{%f%}'
