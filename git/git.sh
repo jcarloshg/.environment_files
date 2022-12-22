@@ -15,13 +15,13 @@ function gcommit {
 
     if [ -z "$1" ]; then
         echo "${JUMPLINE} > executed...     ${MAGENTA}git commit"
+        NCOLOR
         git commit
     else
         echo "${JUMPLINE} > executed...     ${MAGENTA}git commit -m $1"
+        NCOLOR
         git commit -m "$1"
     fi
-
-    NCOLOR
 
 }
 
