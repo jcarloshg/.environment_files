@@ -1,15 +1,5 @@
-setopt PROMPT_SUBST
+setopt PROMPT_SUBST # activate substitute from prompt by functions
 
-function _exit_code() {
-    local EXIT="$?"
+source "$HOME/.environment_files/PROMPT/user.prompt.sh"
 
-    if [ $EXIT -eq 0 ]; then
-        echo -n green
-    else
-        echo -n red
-    fi
-}
-
-# PROMPT='$(_exit_code)%n @ %d: '
-# PROMPT='%{%F{$(_exit_code)}%}%n%{%f%S}% @ %d: '
-PROMPT='%n@%d: '
+PROMPT="${username}@%d%r"
