@@ -12,5 +12,5 @@ alias codeNIKUne="code $HOME/Documentos/chamba/niku_negocioEmpleado"
 
 alias codeFLOKYa="code $HOME/Documentos/school/tesis/Floky"
 alias cdFLOKYa="cd $HOME/Documentos/school/tesis/Floky"
-alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
+# alias codeFLOKYt="code $HOME/Documentos/school/tesis/FlokyTutor"
 alias cdFLOKYt="cd $HOME/Documentos/school/tesis/FlokyTutor"
