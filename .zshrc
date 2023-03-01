@@ -1,5 +1,5 @@
 # ============================================
-# important
+# IMPORTANT 👿
 # ============================================
 
 # ADD PATH FLUTTER
@@ -14,33 +14,7 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 source <(ng completion script)
 
 # ============================================
-# my config
-# ============================================
-
-echo "do it for her..."
-
-source $HOME/.environment_files/utilities.sh
-source $HOME/.environment_files/alias.sh
-source $HOME/.environment_files/git/git.sh
-source $HOME/.environment_files/PROMPT/prompt.index.sh
-
-_display_message() {
-    dirToMove=$(ls | fzf)zj
-    cd "$dirToMove"
-}
-zle -N _display_message
-bindkey '^h' _display_message
-
-_reverse_search() {
-    # selectCommand=$(fc -rl 1 | awk '{$1="";print substr($0,2)}' | sort --unique | fzf)
-    selectCommand=$(fc -rln 1 | sort --unique | fzf)
-    LBUFFER=$selectCommand
-}
-zle -N _reverse_search
-bindkey '^j' _reverse_search
-
-# ============================================
-# my config
+# OH MY ZSH 😁
 # ============================================
 
 # Path to your oh-my-zsh installation.
@@ -63,3 +37,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 eval "$(starship init zsh)"
+
+# ============================================
+# MY CONFIG 😀
+# ============================================
+source $HOME/.environment_files/index.sh
