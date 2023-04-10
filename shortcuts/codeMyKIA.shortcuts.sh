@@ -1,6 +1,7 @@
-function codeNIKUne {
+function codeMyKIA {
 
-    route="$HOME/Documentos/chamba/niku_negocioEmpleado"
+    # /home/jose/Documentos/kokonut/MyKIA_Web
+    route="$HOME/Documentos/kokonut/MyKIA_Web"
 
     echo "${JUMPLINE} > executing...    ${MAGENTA}[     ${RED}cd ${MAGENTA}${route}     ]"
     NCOLOR
