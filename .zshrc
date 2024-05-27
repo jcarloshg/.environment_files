@@ -112,6 +112,12 @@ source <(ng completion script)
 # fzf
 source <(fzf --zsh)
 
+# this is from 
+# 	- https://github.com/sharkdp/bat
+# 	- https://github.com/sharkdp/bat/issues/1420#issuecomment-901041137
+alias bat='batcat'
+
+
 # ============================================
 # MY_CONFIG
 # ============================================
