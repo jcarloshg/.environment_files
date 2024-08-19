@@ -1,9 +1,11 @@
-alias sudo="sudo "
+# alias ll="ls -l"
+# alias la="exa -la"
 
-alias ll="ls -l"
-alias la="exa -la"
+alias cdNotes = "cd $HOME/Documentos/NOTES"
 
-alias cds="cd $HOME/Documentos/school/"
+alias cdSpring = "cd $HOME/jcarloshg/Documentos/school/sprint-boot"
+alias cdSchol="cd $HOME/Documentos/school/"
+
 alias cdc="cd $HOME/Documentos/chamba/"
 alias cda="cd $HOME/Documentos/SANDBOX/"
 
